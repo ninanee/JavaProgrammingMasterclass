@@ -69,7 +69,7 @@ public class StringPractice {
             if(scanner.hasNextInt()){
                 int number = scanner.nextInt();
 
-                //这是一种解决方案，先要把number赋值过去
+                //first solution
                 if(first){
                     first = false;
                     maximum = number;
